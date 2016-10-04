@@ -27,8 +27,11 @@ repositories {
 
 
 dependencies {
+
 	compile('org.projectlombok:lombok')
 	compile('org.springframework.boot:spring-boot-starter')
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '1.4.1.RELEASE'
+
 	runtime('org.postgresql:postgresql')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
