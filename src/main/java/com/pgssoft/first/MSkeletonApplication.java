@@ -1,4 +1,4 @@
-package com.pgssoft;
+package com.pgssoft.first;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class MSkeletonApplication {
 
 	public static void main(String[] args) {
+		System.setProperty("spring.config.name", "first-server");
+
 		SpringApplication.run(MSkeletonApplication.class, args);
 	}
 
