@@ -20,7 +20,7 @@ jar {
 }
 
 springBoot{
-    mainClass = "com.pgssoft.first.MSkeletonApplication"
+    mainClass = "com.pgssoft.Main"
 }
 
 sourceCompatibility = 1.8
